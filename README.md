@@ -4,9 +4,9 @@ QuickIM is a fast algorithm to find top k most influential vertices on a large s
 
 ## Files
 
-`QuickIM` is builded under linux gcc 4.8.4
+`QuickIM` is built under linux gcc 4.8.4
 
-`QuickIM.exe` is builded under win10 gcc 5.3.0
+`QuickIM.exe` is built under win10 gcc 5.3.0
 
 ## How to use
 
