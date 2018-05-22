@@ -21,12 +21,12 @@ Then the followed M lines are the M directed edges. Each line is `u v p` that me
 ---
 ### Execution
 
-The Execution format is
+The command format is
 ```bash
 ./QuickIM <data_filename> <k>
 ```
 
-**For example**
+**Example**
 ```bash
 ./QuickIM ./data/DBLP_wc.txt 10
 ```
@@ -34,3 +34,19 @@ The Execution format is
 ### Output result
 
 QuickIM use standard output stream to output result. The result include QuickIM algorithm elapsed time, top k nodes.
+
+**Example**
+
+Execute as
+```
+./QuickIM ./data/DBLP_wc.txt 5 >./result/DBLP_wc_5.txt
+```
+Result is
+```
+[result]
+data_file = ./data/DBLP_wc.txt
+k = 5
+L = 3
+QucikIM_time = 0.20864
+chosed_node_list = 7276 2289 1255 1299 8740 
+```
