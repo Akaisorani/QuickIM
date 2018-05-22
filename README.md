@@ -23,7 +23,7 @@ Then the followed M lines are the M directed edges. Each line is `u v p` that me
 
 The Execution format is
 ```bash
-./QuickIM dataset_filename k
+./QuickIM <data_filename> <k>
 ```
 
 **For example**
